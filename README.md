@@ -32,3 +32,6 @@ dotnet remove package Swashbuckle.AspNetCore
 dotnet add package Microsoft.AspNetCore.OpenApi
 dotnet add package Swashbuckle.AspNetCore
 ```
+
+## Enable lock files
+Set `RestorePackagesWithLockFile` to true in `Directory.Packages.props` to enable package lock files globally. `packages.lock.json` will be auto-generated. Restore in lock mode need lock files to advoid unwanted upgrade from floating versions of packages.
