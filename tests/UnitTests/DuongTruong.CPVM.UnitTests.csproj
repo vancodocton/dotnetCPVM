@@ -21,4 +21,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Api\DuongTruong.CPVM.Api.csproj" />
+    <ProjectReference Include="..\..\src\WebApp\DuongTruong.CVPM.WebApp.csproj" />
+  </ItemGroup>
+
 </Project>
