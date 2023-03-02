@@ -35,5 +35,7 @@ dotnet add package Swashbuckle.AspNetCore
 
 ## Enable lock files
 Set `RestorePackagesWithLockFile` to true in `Directory.Packages.props` to enable package lock files globally. `packages.lock.json` will be auto-generated. Restore in lock mode need lock files to advoid unwanted upgrade from floating versions of packages.
-Lock files are needed for caching in CI server.
+Lock files are needed for caching in CI server, deterministic build.
 
+## Enable deterministic build
+Determistic build allows produce build outputs that are byte-to-byte indentical with the indentical inputs regasless of time and built machines.
