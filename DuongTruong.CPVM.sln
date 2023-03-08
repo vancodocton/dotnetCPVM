@@ -27,6 +27,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DuongTruong.CPVM.UnitTests"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "src\ConsoleApp\ConsoleApp.csproj", "{C7919EAE-C292-4122-B180-6340842E09C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuongTruong.CPVM.IntegrationTests", "tests\IntegrationTests\DuongTruong.CPVM.IntegrationTests.csproj", "{0E554AF8-7C13-4BBC-821E-A47CB65F64AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{C7919EAE-C292-4122-B180-6340842E09C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7919EAE-C292-4122-B180-6340842E09C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7919EAE-C292-4122-B180-6340842E09C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E554AF8-7C13-4BBC-821E-A47CB65F64AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E554AF8-7C13-4BBC-821E-A47CB65F64AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E554AF8-7C13-4BBC-821E-A47CB65F64AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E554AF8-7C13-4BBC-821E-A47CB65F64AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -58,6 +64,7 @@ Global
 		{9E595784-E333-481A-BB6D-D23F7718B795} = {59EBDF23-E2F1-4AC4-8526-53AD917ABE6F}
 		{602E9161-5AFE-47A9-B6BA-EB1975BBD9D5} = {DE89E36B-E4D0-4990-B6E6-A0162067C7C7}
 		{C7919EAE-C292-4122-B180-6340842E09C6} = {59EBDF23-E2F1-4AC4-8526-53AD917ABE6F}
+		{0E554AF8-7C13-4BBC-821E-A47CB65F64AD} = {DE89E36B-E4D0-4990-B6E6-A0162067C7C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {93FA4D1F-68BB-413F-89E0-2A83F2A472ED}
