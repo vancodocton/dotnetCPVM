@@ -2,6 +2,16 @@
   "version": 2,
   "dependencies": {
     "net7.0": {
+      "GitInfo": {
+        "type": "Direct",
+        "requested": "[3.0.4, )",
+        "resolved": "3.0.4",
+        "contentHash": "Vf8Kq711RK3FZX/D8nrM3w1bGhKVZd3WxoYzPTV5pAowglVYrxvgK7Z/HdJEL+/L4qsqWPyB0tADGNEZ+RmdTw==",
+        "dependencies": {
+          "Devlooped.SponsorLink": "0.9.7",
+          "ThisAssembly.Constants": "1.2.9"
+        }
+      },
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
         "type": "Direct",
         "requested": "[7.0.4, )",
@@ -50,6 +60,11 @@
           "Microsoft.EntityFrameworkCore.Design": "7.0.4"
         }
       },
+      "Devlooped.SponsorLink": {
+        "type": "Transitive",
+        "resolved": "0.9.7",
+        "contentHash": "xYThc9YcXRxnE8nDA6kuAiqhwQdqwRl6dGpH44sMimfPqOe5i54Y6ZL+LMQNWeO498sl72DB//tQEcj/yByMZw=="
+      },
       "Humanizer.Core": {
         "type": "Transitive",
         "resolved": "2.14.1",
@@ -67,6 +82,11 @@
         "dependencies": {
           "Microsoft.AspNetCore.Cryptography.Internal": "7.0.4"
         }
+      },
+      "Microsoft.CSharp": {
+        "type": "Transitive",
+        "resolved": "4.7.0",
+        "contentHash": "pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA=="
       },
       "Microsoft.Data.Sqlite.Core": {
         "type": "Transitive",
@@ -304,6 +324,27 @@
         "dependencies": {
           "System.Text.Encodings.Web": "7.0.0"
         }
+      },
+      "System.Threading.Tasks.Extensions": {
+        "type": "Transitive",
+        "resolved": "4.5.4",
+        "contentHash": "zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg=="
+      },
+      "ThisAssembly.Constants": {
+        "type": "Transitive",
+        "resolved": "1.2.9",
+        "contentHash": "m7iXDuKHmLbO9u1JZunywWWdf5sz7hXIqiELiKtI2fHpZhERvlhUQde13bAuV2cwVlnhk7CqdzCDhvkfX33Kkg==",
+        "dependencies": {
+          "Devlooped.SponsorLink": "0.9.6",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Threading.Tasks.Extensions": "4.5.4",
+          "ThisAssembly.Prerequisites": "1.2.9"
+        }
+      },
+      "ThisAssembly.Prerequisites": {
+        "type": "Transitive",
+        "resolved": "1.2.9",
+        "contentHash": "GDalNu2I9tCNObQBLkRWefrdkS8MqT9nM9HxA+80jCEr7J7aKBRaMqoHe3d0jHJNl7tABdpYRqFlrp8NioX6RQ=="
       }
     }
   }
