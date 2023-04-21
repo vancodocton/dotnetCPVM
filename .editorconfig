@@ -3,11 +3,17 @@ root = true
 # All files
 [*]
 indent_style = space
-end_of_line = lf
+end_of_line = unset
 indent_size = 2
 tab_width = 2
 trim_trailing_whitespace = true
 charset = utf-8
+
+# Visual Studio Solution Files
+[*.sln]
+indent_style = tab
+tab_width = 4
+charset = utf-utf-8-bom
 
 # Xml files
 [*.{xml,yml,yaml,csproj}]
