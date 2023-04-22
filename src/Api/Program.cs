@@ -23,3 +23,11 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
+namespace DuongTruong.CPVM.Api
+{
+    public partial class Program
+    {
+    }
+}
