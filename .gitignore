@@ -475,3 +475,13 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# dotnet CLI tools
+
+## dotnet-coverage
+output.cobertura.xml
+output.xml
+output.coverage
+
+## dotnet-reportgenerator-globaltool
+coveragereport/

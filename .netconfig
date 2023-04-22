@@ -1,0 +1,8 @@
+# .netconfig is awesome: https://dotnetconfig.org
+
+[reportgenerator]	
+	reports = "output.cobertura.xml"
+	targetdir = "coveragereport"
+	reporttypes = "cobertura;HtmlInline_AzurePipelines_Dark"
+	assemblyfilters = "+DuongTruong.CPVM."
+	classFilters = "-**ThisAssembly.Git"

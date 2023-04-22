@@ -9,8 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Testing" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" />
-    <PackageReference Include="Moq" />
     <PackageReference Include="xunit" />
     <PackageReference Include="xunit.runner.visualstudio">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -24,7 +24,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\Api\DuongTruong.CPVM.Api.csproj" />
-    <ProjectReference Include="..\..\src\WebApp\DuongTruong.CVPM.WebApp.csproj" />
   </ItemGroup>
 
 </Project>
